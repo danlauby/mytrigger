@@ -33,6 +33,10 @@
 npm-debug.log
 testem.log
 /typings
+npm-debug.log
+app/*.js
+app/*.js.map
+build/
 
 # e2e
 /e2e/*.js
@@ -41,3 +45,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Firebase credentials
+/src/app/api-keys.ts
